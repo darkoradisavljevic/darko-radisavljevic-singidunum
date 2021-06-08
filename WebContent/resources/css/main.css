@@ -1,0 +1,122 @@
+@charset "ISO-8859-1";
+
+* {
+	color: blue;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	background: #f1f1f1;
+	height: 38px;
+	align-items: center;
+	justify-content: space-around;
+	display: flex;
+}
+
+li {
+	cursor: pointer;
+}
+
+li a {
+	text-decoration: none;
+}
+
+table {
+	margin: 0 auto;
+}
+
+th {
+	border-bottom: 1px solid blue;
+	background: #4747c2;
+	color: white;
+	width: 100px;
+	height: 30px;
+}
+
+td {
+	height: 45px;
+}
+
+.bordered tr {
+	border-bottom: 1px solid blue;
+	border-collapse: collapse;
+}
+
+a.button {
+	background-color: #f1f1f1;
+	padding: 3px;
+	cursor: pointer;
+	border: 1px solid blue;
+}
+
+p.validation {
+	color: red;
+}
+
+.home p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 300px;
+	margin: 10px auto;
+	align-items: center;
+}
+
+.home p>a {
+	width: 100%;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+.formtable {
+	border: 1px solid blue;
+	background-color: #f1f1f1;
+	min-width: 500px;
+	margin-top: 50px;
+	padding: 50px;
+	border-collapse: collapse;
+}
+
+input[type="submit"] {
+	border: 1px solid gray;
+}
+
+input[type="submit"]:hover, .home p>a:hover {
+	background: blue;
+	color: white;
+}
+
+#semester {
+	margin-right: -93px
+}
+
+input, select {
+	width: 240px;
+	height: 26px;
+	border: none;
+}
+
+.label {
+	text-align: right;
+	min-width: 150px;
+}
+
+.control {
+	margin-left: 10px;
+}
+
+.text-decoration {
+	text-decoration: none;
+}
+
+.home {
+	min-width: 50px;
+}
+
+.footer {
+	position: static;
+	bottom: 0;
+	width: 95%;
+	padding: 20px;
+}
